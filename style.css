@@ -1,0 +1,449 @@
+body{
+
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.nav_bar {
+    height: 60px;
+    display: flex;
+    padding: 9px;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 5px 5px 16px rgba(128, 128, 128, 0.382);
+    z-index: 1;
+    position: relative;
+}
+
+.nav_bar button {
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 0.87rem;
+    cursor: pointer;
+    margin: 3px;
+    width: max-content;
+    white-space: nowrap;
+}
+
+.nav_bar form {
+    display: flex;
+    width: 100%;
+    margin-right: 90px;
+    position: relative;
+    right: 10px;
+    margin: auto;
+}
+
+.nav_bar form input {
+    border: 0.1em solid black;
+    padding: 0px 2.4rem 0px 2.4rem;
+    display: flex;
+    align-items: stretch;
+    border-radius: 30px;
+    width: 100%;
+    height: 47px;
+    margin-right: 2px;
+    background-color: rgba(0, 0, 0, 0.029);
+}
+
+.nav_bar form input:focus {
+    outline: none;
+}
+
+.nav_bar form button {
+    border: none;
+    position: relative;
+    background: rgba(76, 175, 80, 0);
+    left: 35px;
+}
+
+.logo {
+    border: none;
+    height: 2.1rem;
+    background-color: white;
+    position: relative;
+    top: 4px;
+}
+
+.sign_up {
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    height: 40px;
+    width: max-content;
+    padding: 0px 15px 0px 15px;
+}
+
+.log_in {
+    border: 1px solid black;
+    font-weight: 900;
+    height: 40px;
+    width: max-content;
+    padding: 0px 20px 0px 20px;
+}
+
+.cart {
+    padding: 11px 14px;
+    height: max-content;
+}
+
+.globe {
+    border: 1px solid black;
+    margin-right: 8px;
+    padding: 11px 14px;
+    height: 40px;
+}
+
+.hero {
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    width: 83rem;
+    background-image: url(https://img-b.udemycdn.com/notices/web_banner/slide_1_image_udlite/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sub_hero {
+    
+    min-width: 337px;
+    display: inline-block;
+    background-image: none;
+    background-color: white;
+    padding: 0.1rem 1.3rem 0rem 1.3rem;
+    position: relative;
+    width: 29%;
+    top: 15%;
+    left: 5%;
+    box-shadow: 1px 1px 19px rgba(128, 128, 128, 0.31);
+    line-height: 29px;
+}
+.sub_hero h1{
+    margin-top: 20px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.sub_hero p {
+    font-size: 19px;
+
+}
+.middle{
+    text-align: left;
+   padding-left: 150px;
+}
+
+.middle h1{
+
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.course_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 150px;
+        
+    }
+    
+    li{
+    width: auto;
+    height: auto;
+    margin: 6px;
+    padding-right: 15px;
+    border-radius: 5px;
+    list-style: none;
+    font-weight: bold;
+    }
+
+    .course_list
+    {
+    text-align: left;
+     border: 1px solid;
+   border-color: #d1d7dc;
+   margin-left: 160px;
+   margin-right: 10px;
+   padding-left: 40px;
+    }
+
+    .course_list button{
+margin-top: 20px;
+padding: 10px;
+border: 2px solid black;
+background-color: white;
+font-weight: bold;
+    }
+    .courses
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;   
+        
+    }
+
+    .course_1 img{
+        width: 230px;
+        height: 140px;
+        border: solid 0.5px gray;
+    }
+    
+    span{
+        color: #e59819;
+    }
+    .course_1{
+        display: block;
+        padding-top: 40px;
+        padding-right: 17px;
+    }
+    
+    .course_1:hover{
+        cursor: pointer;
+    
+    
+    }
+    
+    .course_1 h1{
+        font-size: 15px;
+        width: auto;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-bottom: 0px;
+    
+    }
+    
+    .star {
+        font-size: 13px;
+        padding-bottom: 2px;
+        line-height: 25px;
+    }
+    
+    .cost{
+        font-weight: bold;
+    
+    }
+    
+    .star img{
+    width: 45px;
+    object-fit: cover;
+    height: 10px;
+    }
+    s{
+        font-size: 13px;
+        color: grey;
+    }
+    
+    .trainer{
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .students
+    {
+    text-align: left;
+    padding-top: 50px; 
+   margin-left: 130px;
+   margin-right: 10px;
+   padding-left: 40px;
+   margin-bottom: 50px
+    }
+
+
+     .row{
+        
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+      }
+    
+    .card{
+    position: relative;
+    padding-right: 20px;
+    font-weight: bold;
+    }
+
+    .categories{
+        padding-top: 100px;
+        margin-left: 130px;
+    }
+
+    .features{
+        background-color: #f7f9fa;
+        padding-left: 110px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .features_columns
+    {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 80px; 
+        
+        }
+
+        .features_columns li{
+            line-height: 20px;
+        }
+
+        .features p{
+
+           padding-left: 40px;
+        }
+
+        .features h1{
+
+            font-weight: bold;
+            padding-left: 40px;
+         }
+        .features button{
+
+            
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: white;
+            font-weight: bold;
+         }
+
+.course_teams{
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    .teams
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        gap: 50px;
+        justify-content: center;
+        
+    }
+
+.instructor{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+
+.word_section{
+
+    width: 30%;
+    padding-left: 90px;
+}
+
+.word_section button{
+
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color:black;
+    font-weight: bold; 
+    font-size: large; 
+}
+
+.business{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    }
+
+
+    .business_image img{
+
+        width: 400px;
+        height: 400px;
+    }
+
+
+
+    .business_words{
+
+        width: 30%;
+        padding-right: 90px;
+    }
+
+    .business_words img{
+
+        width: 192px;
+        height: 32px;
+    }
+
+    .business_words li{
+
+        list-style-type:disc;
+        font-size: 18px;
+              
+    }
+
+    .udemy_bus{
+        margin-top: 20px;
+        padding: 10px;
+        color: white;
+        background-color:black;
+        font-weight: bold; 
+        font-size: large;
+
+    }
+
+    .learn{
+        margin-top: 20px;
+        padding: 10px;
+        color: black;
+        background-color:white;
+        font-weight: bold; 
+        font-size: large;
+
+    }
+
+    
+.footer{
+    max-width: 100%;
+    margin: 1rem auto;
+    overflow: auto;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+.footer ,
+.footer a{
+    color:  white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    padding-left: 38px;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+.footer li{
+    line-height: 2;
+    list-style: none;
+}
+
+.footer img{
+
+    height: 34px;
+    width: 91px;
+
+}
+
