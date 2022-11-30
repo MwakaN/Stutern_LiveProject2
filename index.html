@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     
+         
     <title>CSS HTML Live Project2</title>
 </head>
 <body>
@@ -42,15 +42,16 @@
                 <button class="udemy_teach" type="button">Teach on Udemy</button>
     
                 <button class="cart" type="button">
-                    <i class="fa fa-shopping-cart"></i>
+                    <img src="images/cart.png"/>
+                    
                 </button>
     
-                <button class="log_in" type="button">Log in</button>
+                <button id="log_in" type="button">Log in</button>
     
-                <button class="sign_up" type="button">Sign up</button>
+                <button id="sign_up" type="button">Sign up</button>
     
                 <button class="globe">
-                    <i class="fa-solid fa-globe"></i>
+                    <img src="images/worldmap.png"/>
                 </button>
             
         </div>
@@ -373,16 +374,24 @@
 
 
 <div class="categories">
-            <h1>Top Categories</h1>
+            <h2>Top Categories</h2>
 <div class="row">
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"/> <p>Design</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"/><p>Development</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"/><p>Marketing</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"/><p>IT and Software</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"/><p>Personal Development</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"/><p>Business</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"/><p>Photography</p></div>
-    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"/><p>Music</p></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"/> 
+        <div>Design</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"/>
+        <div>Development</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"/>
+        <div>Marketing</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"/>
+        <div>IT and Software</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"/>
+        <div>Personal Development</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"/>
+        <div>Business</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"/>
+        <div>Photography</div></div>
+    <div class="card"><img src = "https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"/>
+        <div>Music</div></div>
 </div>
 </div>
 
@@ -474,36 +483,75 @@
         </div>
 </div>
 
-<footer class="footer">
-        <div class="footer-column">
-        <ul>
-            <li><a href="#">Udemy Business</a></li>
-            <li><a href="#">Teach on Udemy</a></li>
-            <li><a href="#">Get the app</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact us</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Help and Support</a></li>
-            <li><a href="#">Affiliate</a></li>
-            <li><a href="#">Investors</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Cookie settings</a></li>
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Accessibility statement</a></li>
-        </ul>
+<div class="footer_container">
+    <div class="footer_columns">
+        <div>
+            <ul>
+                <a href="#"><li>Udemy Business</li></a>
         
+        
+                <a href="#"><li>Teach on Udemy</li></a>
+        
+        
+                <a href="#"><li>Get the app</li></a>
+
+                
+                <a href="#"><li>About us</li></a>
+
+                <a href="#"><li>Contact us</li></a>
+        
+            </ul>
+        </div>
+        
+
+        <div>
+            <ul>
+                <a href="#"><li>Carrers</li></a>
+        
+        
+                <a href="#"><li>Blog</li></a>
+        
+        
+                <a href="#"><li>Help and Support</li></a>
+
+                <a href="#"><li>Affiliate</li></a>
+
+                <a href="#"><li>Investor</li></a>
+        
+            </ul>
+        </div>
+        
+
+
+        <div>
+            <ul>
+                <a href="#"><li>Terms</li></a>
+        
+        
+                <a href="#"><li>Privacy Policy</li></a>
+        
+        
+                <a href="#"><li>Cookie Settings</li></a>
+
+                <a href="#"><li>Sitemap</li></a>
+
+                <a href="#"><li>Accessibility Statement</li></a>
+        
+            </ul>
+        </div>
+        
+       
     </div>
-    <p>
-       <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg">
-    
-    </p>
-</footer>
+    <div class="footer_button">
+        <img src="https://cdn-icons-png.flaticon.com/512/390/390408.png"/>
+        <button>English</button>
+    </div>
+
+    <h4>© 2022 Udemy, Inc.</h4>
+    <div class="footer_logo">
+        <img src="images/logo-udemy-words.svg" />
+    </div>
+</div>
 
 </div>
 </div>

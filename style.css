@@ -17,6 +17,7 @@ body h1{
     box-shadow: 5px 5px 16px rgba(128, 128, 128, 0.382);
     z-index: 1;
     position: relative;
+    width: 100%;
 }
 
 .nav_bar button {
@@ -72,7 +73,7 @@ body h1{
     top: 4px;
 }
 
-.sign_up {
+#sign_up {
     background-color: black;
     color: white;
     font-weight: 900;
@@ -81,7 +82,7 @@ body h1{
     padding: 0px 15px 0px 15px;
 }
 
-.log_in {
+#log_in {
     border: 1px solid black;
     font-weight: 900;
     height: 40px;
@@ -89,16 +90,15 @@ body h1{
     padding: 0px 20px 0px 20px;
 }
 
-.cart {
-    padding: 11px 14px;
-    height: max-content;
+.cart img{
+    
+    height:20px;
+    padding-top: 5px;
 }
 
-.globe {
-    border: 1px solid black;
-    margin-right: 8px;
-    padding: 11px 14px;
-    height: 40px;
+.globe img{
+    height:20px;
+    padding-top: 5px;
 }
 
 .hero {
@@ -197,7 +197,6 @@ font-weight: bold;
     }
     .course_1{
         display: block;
-        padding-top: 40px;
         padding-right: 17px;
     }
     
@@ -214,6 +213,8 @@ font-weight: bold;
         padding-bottom: 0px;
     
     }
+
+
     
     .star {
         font-size: 13px;
@@ -245,33 +246,40 @@ font-weight: bold;
     {
     text-align: left;
     padding-top: 50px; 
-   margin-left: 130px;
+   margin-left: 120px;
    margin-right: 10px;
    padding-left: 40px;
    margin-bottom: 50px
     }
-
-
-    .stu_head{
-        padding-bottom: 0px;
-        
-    }
-     .row{
+      .row{
         
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
-      }
+              }
+
+    .row p{
+
+        font-weight: 600;
+        padding-top: 0px;
+    }
     
     .card{
     position: relative;
     padding-right: 20px;
-    font-weight: bold;
+    
+    }
+
+    .card div
+    { 
+        font-weight: 700;
+        padding-bottom: 40px;
+        font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     }
 
     .categories{
         padding-top: 10px;
-        padding-left: 170px;
+        padding-left: 160px;
         padding-bottom: 50px;
     }
 
@@ -454,44 +462,90 @@ font-weight: bold;
         font-size: 1rem;
     }
 
+    .footer_container{
+        background-color: rgb(28,29,31);
+        padding: 25px;
+        position: relative;
+        
+    }
+    .footer_button button{
+        padding: 10px;
+        font-size: 18px;
+        width: 80px;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
     
-.footer{
-    max-width: 100%;
-    margin: 1rem auto;
-    overflow: auto;
-    padding-top: 50px;
-    background-color: black;
-    color: white;
-}
-
-.footer ,
-.footer a{
-    color:  white;
-    font-size: 0.9rem;
-    text-decoration: none;
-}
-
-.footer p{
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-    padding-left: 38px;
-}
-
-.footer-column{
-    display: flex;
-    flex-direction: row;
-    gap:50px;
-}
-
-.footer li{
-    line-height: 2;
-    list-style: none;
-}
-
-.footer img{
-
-    height: 34px;
-    width: 91px;
-
-}
-
+    
+    .footer_button{
+        
+        border: solid 1px white;
+        cursor: pointer;
+        margin-left: 40px;
+        position: absolute;
+        right: 50px;
+        top: 30px;
+        cursor: pointer;
+        vertical-align: middle;
+        padding-bottom: 3px;
+        background-color: transparent;
+    }
+    
+    
+    .footer_container a {
+        text-decoration: none;
+        
+    }
+    
+    
+    .footer_container a li{
+        list-style: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding-bottom: 10px;
+        color: rgb(247,249,250);
+        text-decoration: none;
+        
+    }
+    
+    .footer_container a li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .footer_columns{
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+        padding-right: 20px;
+        align-items: center;
+        
+    }
+    
+    .footer_button img{
+        width: 18px;
+        height: 18px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 12px;     
+    }
+    
+    .footer_container h4{
+        color: white;
+        font-size: 13px;
+        position: absolute;
+        right: 50px;
+        bottom: 10px;
+    }
+    
+    .footer_logo img{
+        width: 100px;
+        padding-left: 45px;
+    }
+    
+    
+    .footer_columns{
+        padding-bottom: 40px;
+    }
